@@ -1,0 +1,19 @@
+{
+  "name": "canvas-games",
+  "version": "1.0.0",
+  "description": "this is a webapp where people can make and share js canvas games",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "origin https://github.com/schuyler4/canvas-games.git"
+  },
+  "author": "Marek Newton",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^16.0.2",
+    "inert": "^4.0.3"
+  }
+}

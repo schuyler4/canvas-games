@@ -4,7 +4,8 @@
   "description": "this is a webapp where people can make and share js canvas games",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lab ./test/unit.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,15 @@
   "author": "Marek Newton",
   "license": "ISC",
   "dependencies": {
+    "handlebars": "^4.0.6",
     "hapi": "^16.0.2",
-    "inert": "^4.0.3"
+    "inert": "^4.0.3",
+    "mongodb": "^2.2.16",
+    "mongoose": "^4.7.4",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "lab": "^11.2.1"
   }
 }
